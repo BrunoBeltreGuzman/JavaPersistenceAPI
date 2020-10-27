@@ -9,7 +9,7 @@ A través de JPA, el desarrollador se puede almacenar, eliminar, actualizar y re
 
 JPA nos permite trabajar directamente con objetos en lugar de sentencias SQL por lo que no tendremos que escribir absolutamente ninguna en nuestros programas, esto equivale también a rapidez en el desarrollo de aplicaciones Java.
 
-Anotaciones:
+# Anotaciones:
 
 @Entity Especifica que voy a crear una entidad. Se coloca al inicio de la definición de la clase.
 
