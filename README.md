@@ -10,8 +10,13 @@ A través de JPA, el desarrollador se puede almacenar, eliminar, actualizar y re
 JPA nos permite trabajar directamente con objetos en lugar de sentencias SQL por lo que no tendremos que escribir absolutamente ninguna en nuestros programas, esto equivale también a rapidez en el desarrollo de aplicaciones Java.
 
 Anotaciones:
+
 @Entity Especifica que voy a crear una entidad. Se coloca al inicio de la definición de la clase.
+
 @Id Primary key de la entidad.
+
 @GeneratedValue  Indica que esa clave se auto genera por medio de auto increment.
+
 @Colulmn Sirve para especificar que la clave está asociada a un atributo de la tabla. Aprovecharemos para indicar si  puede ser nulo, si existe un límite de caracteres, etc.
+
 
